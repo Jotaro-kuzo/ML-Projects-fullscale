@@ -62,9 +62,9 @@ git remote -v
 
 ## To setup CI/CD pipeline to heroku:
     We need:
-     1.Heroku_Email = sk6724486@gmial.com
-     2.Heroku_app_key = d6d76f26-ff52-497b-91be-8d074115a71a
-     3.Heroku_app_name = first-ci-cd-with-simple-messag
+     1.Heroku_Email = 
+     2.Heroku_app_key = 
+     3.Heroku_app_name =
 
 
 ## Docker file:
@@ -90,3 +90,18 @@ git remote -v
     ```
     docker images  
     ```
+
+
+
+## to run the image:
+```
+ docker run -p 5000:5000 -e PORT=5000 cb5f17f0aa7b
+```
+## to check running containers:
+```
+docker ps
+```
+## to stop image running:
+```
+docker stop <container_id>
+```
