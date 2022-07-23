@@ -105,3 +105,8 @@ docker ps
 ```
 docker stop <container_id>
 ```
+
+## Now create a Setup.py file and give the info for setting up the project. After that try to install setup.py file using command:
+```
+python setup.py install
+```
