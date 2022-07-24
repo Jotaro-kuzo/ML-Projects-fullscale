@@ -1,5 +1,5 @@
 
-from setuptools import setup 
+from setuptools import setup, find_packages
 from typing import List
 
 
@@ -30,9 +30,10 @@ name = PROJECT_NAME,
 version = VERSION,
 author = AUTHOR,
 description=DESCRIPTION,
-packages = PACKAGES,
+packages = find_packages(),
 install_requires = get_requirements_list()
 
 )
+
 
 

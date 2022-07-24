@@ -80,7 +80,7 @@ git remote -v
     CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT app:app
     ```
 
-    ## docker image:
+## docker image:
 
     ```
     docker build -t <image_name>:<tagname> .   (lower case only)
