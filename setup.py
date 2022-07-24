@@ -3,6 +3,15 @@ from setuptools import setup, find_packages
 from typing import List
 
 
+PROJECT_NAME="Housing-predictor"
+VERSION = "0.0.1"
+AUTHOR = "Santhosh_2548"
+DESCRIPTION = "This is full end to end House price prediction project"
+PACKAGES = ["housing"]
+REQUIREMENT_FILE_NAME = "requirements.txt"
+HYPHEN_E_DOT = "-e ."
+
+
 def get_requirements_list()->List[str]:
 
     """
@@ -17,13 +26,7 @@ def get_requirements_list()->List[str]:
             requirement_list.remove(HYPHEN_E_DOT)
         return requirement_list
 
-PROJECT_NAME="Housing-predictor"
-VERSION = "0.0.1"
-AUTHOR = "Santhosh_2548"
-DESCRIPTION = "This is full end to end House price prediction project"
-PACKAGES = ["housing"]
-REQUIREMENT_FILE_NAME = "requirements.txt"
-HYPHEN_E_DOT = "-e ."
+
 
 setup(
 name = PROJECT_NAME,
