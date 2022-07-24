@@ -110,3 +110,19 @@ docker stop <container_id>
 ```
 python setup.py install
 ```
+
+
+Now work in housing folder. We have to create: 
+    exception (package) ,
+    logger (package) , 
+    pipeline (package), 
+    component/stages (package), 
+    config(package), 
+    entity (package)
+
+In every folder, there should be a init file.
+
+## Order of working :
+    Logger --> Exception --> 
+
+    Logger and exceptions are root folders.
